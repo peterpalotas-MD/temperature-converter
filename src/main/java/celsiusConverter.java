@@ -2,9 +2,9 @@ public class celsiusConverter {
 
 
     public static double convertToCelsius(double fahrenheit){
-        return 0;
+        return (fahrenheit-32)/1.8;
     }
-    public static double convertToFahrenheit(double Celsius){
-        return 0;
+    public static double convertToFahrenheit(double celsius){
+        return (celsius*1.8)+32;
     }
 }
